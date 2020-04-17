@@ -6,7 +6,7 @@ const CardsList = (props) => {
 
     return (        
             <div className='container'>
-              {props.allRobots.map((oneRobot) => <Card key={oneRobot.id} oneRobot={oneRobot}/>) }
+              {props.robots.map((oneRobot) => <Card key={oneRobot.id} oneRobot={oneRobot}/>) }
             </div>
     )
 }
